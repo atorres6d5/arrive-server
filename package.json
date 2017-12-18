@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "none",
-    "start": "node server.js"
+    "start": "node server.js",
+    "knex": "knex"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,19 @@
   "bugs": {
     "url": "https://github.com/KevinUSCU/arrive-server/issues"
   },
-  "homepage": "https://github.com/KevinUSCU/arrive-server#readme"
+  "homepage": "https://github.com/KevinUSCU/arrive-server#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "knex": "^0.14.2",
+    "morgan": "^1.9.0",
+    "pg": "^7.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.13.3"
+  }
 }
