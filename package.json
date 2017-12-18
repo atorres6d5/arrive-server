@@ -1,0 +1,20 @@
+{
+  "name": "arrive-server",
+  "version": "0.0.1",
+  "description": "Server for Galvanize Q3 group project.",
+  "main": "server.js",
+  "scripts": {
+    "test": "none",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinUSCU/arrive-server.git"
+  },
+  "author": "Aldo, Kevin, Stan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KevinUSCU/arrive-server/issues"
+  },
+  "homepage": "https://github.com/KevinUSCU/arrive-server#readme"
+}
